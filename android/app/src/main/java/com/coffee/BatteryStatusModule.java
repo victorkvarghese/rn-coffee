@@ -11,6 +11,7 @@ import com.facebook.react.bridge.ReactMethod;
 
 public class BatteryStatusModule extends ReactContextBaseJavaModule  {
     public BatteryStatusModule(ReactApplicationContext reactContext) {
+
         super(reactContext);
     }
 
@@ -28,8 +29,6 @@ public class BatteryStatusModule extends ReactContextBaseJavaModule  {
         if(level == -1 || scale == -1) {
             level = 0;
         }
-        System.out.print("battery level");
-        System.out.print(level);
-        successCallback.invoke(null ,((float)level / (float)scale) * 100.0f);
+        successCallback.invoke(((float)level / (float)scale) * 100.0f);
     }
 }

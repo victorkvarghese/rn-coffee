@@ -2,10 +2,12 @@
 //  BatteryStatus.m
 //  Coffee
 //
-//  Created by Victor Varghese on 09/09/18.
+//  Created by Victor Varghese on 10/09/18.
 //  Copyright © 2018 Facebook. All rights reserved.
 //
 
+
+#import <Foundation/Foundation.h>
 #import "BatteryStatus.h"
 
 @implementation BatteryStatus
@@ -21,10 +23,14 @@ RCT_EXPORT_MODULE(BatteryStatus)
   return self;
 }
 
+- (NSArray<NSString *> *)supportedEvents {
+  return @[@"getBatteryStatus"];
+}
+
 RCT_EXPORT_METHOD(hide) {
 }
 
-RCT_EXPORT_METHOD(updateBatteryLevel:(RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(getBatteryStatus:(RCTResponseSenderBlock)callback)
 {
   callback(@[[self getBatteryStatus]]);
 }

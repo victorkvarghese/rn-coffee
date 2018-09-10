@@ -11,8 +11,8 @@ const styles = StyleSheet.create({
         borderBottomColor: AppStyles.color.COLOR_GREY
     },
     img: {
-        width: 64,
-        height: 64,
+        width: 56,
+        height: 56,
         resizeMode: 'contain'
     },
     title: {

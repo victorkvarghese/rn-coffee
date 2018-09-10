@@ -1,35 +1,39 @@
 import React, { Component } from 'react';
 import { View, Text, Platform } from 'react-native';
 import { NativeModules } from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import Toolbar from 'app/components/Toolbar';
 import styles from './styles';
+import AppStyles from 'app/config/styles';
 
 class LocationView extends Component {
     state = {
         batteryLevel: ''
     };
-
     componentDidMount() {
-        if (Platform.OS === 'android') {
-            this.getBatteryLevel(batteryLevel => {
-                console.log('Test', batteryLevel);
-                this.setState({
-                    batteryLevel
-                });
+        NativeModules.BatteryStatus.getBatteryStatus(batteryLevel => {
+            this.setState({
+                batteryLevel:
+                    Platform.OS === 'ios'
+                        ? -1 * batteryLevel.level
+                        : batteryLevel
             });
-        }
+        });
     }
-
-    getBatteryLevel = callback => {
-        NativeModules.BatteryStatus.getBatteryStatus(callback);
-    };
 
     render() {
         return (
             <View style={styles.container}>
                 <Toolbar title="SEARCH SHOPS" />
-                <Text>Battery Level : {this.state.batteryLevel}</Text>
+                <View style={styles.battery}>
+                    <Icon
+                        name="battery-alert"
+                        size={100}
+                        color={AppStyles.color.COLOR_PRIMARY}
+                    />
+                    <Text>Battery Level : {this.state.batteryLevel}</Text>
+                </View>
             </View>
         );
     }

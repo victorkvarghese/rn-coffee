@@ -3,8 +3,8 @@ import { View, Image } from 'react-native';
 import { Text, TouchableRipple } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import PropTypes from 'prop-types';
-import Images from 'app/config/images';
 
+import Images from 'app/config/images';
 import styles from './styles';
 
 export default class CoffeeItem extends Component {

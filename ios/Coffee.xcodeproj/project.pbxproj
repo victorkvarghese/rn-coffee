@@ -55,6 +55,7 @@
 		F4678BD32145400D0084D99D /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F480A94F2144F1EB00D93324 /* libRNVectorIcons.a */; };
 		F480A9502144F22A00D93324 /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F499A61E2144E95A005178E2 /* libSplashScreen.a */; };
 		F499A6202144EAAE005178E2 /* splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F499A61F2144EAAE005178E2 /* splash@3x.png */; };
+		F4E4805E2146D00A0086E72F /* BatteryStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4805D2146D00A0086E72F /* BatteryStatus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -393,6 +394,8 @@
 		D4EDB8BB4C2B48FB87AD4A32 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		DCC614CF88564D5B8BDA965E /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
 		F499A61F2144EAAE005178E2 /* splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@3x.png"; sourceTree = "<group>"; };
+		F4E4805D2146D00A0086E72F /* BatteryStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BatteryStatus.m; path = Coffee/BatteryStatus.m; sourceTree = "<group>"; };
+		F4E4805F2146D01B0086E72F /* BatteryStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BatteryStatus.h; path = Coffee/BatteryStatus.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -541,6 +544,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				F4E4805D2146D00A0086E72F /* BatteryStatus.m */,
+				F4E4805F2146D01B0086E72F /* BatteryStatus.h */,
 			);
 			name = Coffee;
 			sourceTree = "<group>";
@@ -1254,6 +1259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E4805E2146D00A0086E72F /* BatteryStatus.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);

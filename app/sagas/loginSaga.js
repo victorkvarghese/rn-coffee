@@ -5,12 +5,11 @@
  * pwd - password
  */
 import { put, call } from 'redux-saga/effects';
+import { delay } from 'redux-saga';
 import { Alert } from 'react-native';
 import loginUser from 'app/api/methods/loginUser';
 import * as loginActions from 'app/actions/loginActions';
 import * as navigationActions from 'app/actions/navigationActions';
-
-const delay = ms => new Promise(res => setTimeout(res, ms));
 
 // Our worker Saga that logins the user
 export default function* loginAsync(action) {
