@@ -39,8 +39,13 @@ Coffee App using react-native.
 7. Enjoy!!!
 
 ## Sample APK
-Download here : [Pending Url]
+Download here : [Coffee-Release-APK](https://drive.google.com/file/d/1bE_F9CbFMowEm4KQK8vVUczJFvXmokrr/view?usp=sharing)
 
+## Screenshots
+
+Login Screen              |  Home Screen
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/15869386/45311940-66193180-b548-11e8-9ff5-00c854a9d6fb.png)  |  ![](https://user-images.githubusercontent.com/15869386/45311961-76311100-b548-11e8-9c5f-ab299dbd64ff.png)
 
 ## Contributing
 PRs are welcome.
