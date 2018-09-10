@@ -15,7 +15,7 @@ Coffee App using react-native.
 * [React Native Paper](https://callstack.github.io/react-native-paper/)
 * [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
 * [Jest](https://facebook.github.io/jest/)
-* [Eslint](http://eslint.org/) ([Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb))
+* [Eslint](http://eslint.org/)
 
 ## Prerequisites
 
