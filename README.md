@@ -1,5 +1,5 @@
 
-## 🚀 React Native Coffee
+## :coffee: React Native Coffee
 
 [![React Native](https://img.shields.io/badge/React%20Native-v0.55-blue.svg)](https://facebook.github.io/react-native/)
 [![React Navigation V2](https://img.shields.io/badge/React%20Navigation-v2..0.1-blue.svg)](https://reactnavigation.org/)
