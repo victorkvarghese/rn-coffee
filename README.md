@@ -45,7 +45,13 @@ Download here : [Coffee-Release-APK](https://drive.google.com/file/d/1bE_F9CbFMo
 
 Login Screen              |  Home Screen
 :-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/15869386/45311940-66193180-b548-11e8-9ff5-00c854a9d6fb.png)  |  ![](https://user-images.githubusercontent.com/15869386/45311961-76311100-b548-11e8-9c5f-ab299dbd64ff.png)
+![](https://user-images.githubusercontent.com/15869386/45311940-66193180-b548-11e8-9ff5-00c854a9d6fb.png)  |  ![](https://user-images.githubusercontent.com/15869386/45311961-76311100-b548-11e8-9c5f-ab299dbd64ff.png) | ![](https://user-images.githubusercontent.com/15869386/45333062-bec0ec80-b591-11e8-911e-4ec419934841.gif)
+
+## Preview
+
+Screens              
+:-------------------------:
+![](https://user-images.githubusercontent.com/15869386/45333062-bec0ec80-b591-11e8-911e-4ec419934841.gif)
 
 ## Contributing
 PRs are welcome.
